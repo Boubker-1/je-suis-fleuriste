@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3362427981173650074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3362427981173650072}
+  - component: {fileID: 3362427981173650073}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3362427981173650072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3362427981173650074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3362427981173650073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3362427981173650074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ece14d103a46144588e350e6684a9eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: lullaby
+    clip: {fileID: 8300000, guid: 547f6b05e6b7b6b449f8f4c57323cfe2, type: 3}
+    loop: 1
+    volume: 0.619
+    source: {fileID: 0}
+  - name: click
+    clip: {fileID: 8300000, guid: df216c04b832c014e885afab7a5e8eb5, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: click2
+    clip: {fileID: 8300000, guid: 08cefdb7a58911440a5932a9d322dbe7, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: completehalf
+    clip: {fileID: 8300000, guid: 44be908d461f863419676bb4f2da9e13, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: success3
+    clip: {fileID: 8300000, guid: 7b961c00c523d1d40be48da14c13ad04, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: idea
+    clip: {fileID: 8300000, guid: c348ac1484ebacf4f9fd4b986837140b, type: 3}
+    loop: 0
+    volume: 0.348
+    source: {fileID: 0}
+  - name: correctanswer
+    clip: {fileID: 8300000, guid: 62485cccafee04c42bbda7b171c59df4, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: incorrectanswer
+    clip: {fileID: 8300000, guid: bac1e6eb9c3bd0141a15ea66220815c8, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: backtoplace
+    clip: {fileID: 8300000, guid: 7bfa58ae0c29e4c44b24bd74906dca75, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: scorecount
+    clip: {fileID: 8300000, guid: cb5ef1a7bd3bfa04ead805eb7734000c, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: win
+    clip: {fileID: 8300000, guid: ce870b59f80d3254cacc5e94eee7e059, type: 3}
+    loop: 0
+    volume: 1
+    source: {fileID: 0}
+  - name: success3half
+    clip: {fileID: 8300000, guid: f988682ace2e9284fa178a14ddd538d8, type: 3}
+    loop: 0
+    volume: 0.7
+    source: {fileID: 0}
